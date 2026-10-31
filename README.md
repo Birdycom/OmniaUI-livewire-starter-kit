@@ -17,7 +17,7 @@ cd my-app && composer run dev
 ## How the styling works
 
 - `resources/css/app.css` has two directives: `@omniaui;` (the OmniaUI components) and `@omnia;` (the OmniaCSS utilities).
-  The PostCSS plugin replaces them with only the CSS your views use. The whole kit ships about **52 kB of CSS (10 kB gzip)**.
+  The PostCSS plugin replaces them with only the CSS your views use. The whole kit ships about **58 kB of CSS (11 kB gzip)**, components included.
 - `postcss.config.js` scans `resources/views` and the OmniaUI Blade components your views use (`<x-oc::button>` …).
 - Colors, radius and fonts are theme tokens: override them in `resources/css/theme.css`. Every component follows
   light and dark mode through `light-dark()`; Settings > Appearance stores the choice as `data-theme` on `<html>`.
