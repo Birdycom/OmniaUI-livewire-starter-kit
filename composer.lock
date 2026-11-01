@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17083fd927e2cc9ce34e49bf6ad44b30",
+    "content-hash": "028de1be6c0318d56f8885a5a99889ee",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -63,11 +63,17 @@
         },
         {
             "name": "birdycom/omniaui-laravel",
-            "version": "0.12.5",
+            "version": "v0.12.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Birdycom/OmniaUI-Laravel.git",
+                "reference": "a3f1ae8f5c1659f6a02dddc728829ad21c0a39df"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../omniaUI/php-packages/omniaui-laravel",
-                "reference": "d190b6e81d2a877834b4b8a38d23c1c29991c973"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Birdycom/OmniaUI-Laravel/zipball/a3f1ae8f5c1659f6a02dddc728829ad21c0a39df",
+                "reference": "a3f1ae8f5c1659f6a02dddc728829ad21c0a39df",
+                "shasum": ""
             },
             "require": {
                 "illuminate/console": "^11.0|^12.0|^13.0",
@@ -92,16 +98,7 @@
                     "Omniacss\\Laravel\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Omniacss\\Laravel\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -121,25 +118,28 @@
                 "omniacss"
             ],
             "support": {
+                "docs": "https://omniaui.eu/ui/frameworks-laravel.html",
                 "issues": "https://github.com/Birdycom/OmniaUI/issues",
-                "source": "https://github.com/Birdycom/OmniaUI/tree/main/php-packages/omniaui-laravel",
-                "docs": "https://omniaui.eu/ui/frameworks-laravel.html"
+                "source": "https://github.com/Birdycom/OmniaUI/tree/main/php-packages/omniaui-laravel"
             },
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2026-11-01T14:54:27+00:00"
         },
         {
             "name": "birdycom/omniaui-livewire",
-            "version": "0.12.5",
+            "version": "v0.12.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Birdycom/OmniaUI-Livewire.git",
+                "reference": "0b720850f38e0c2e4d9bfce3976976a76783f3d9"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../omniaUI/php-packages/omniaui-livewire",
-                "reference": "a92b7d2e8f9eb51902835883039df726ee70205f"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Birdycom/OmniaUI-Livewire/zipball/0b720850f38e0c2e4d9bfce3976976a76783f3d9",
+                "reference": "0b720850f38e0c2e4d9bfce3976976a76783f3d9",
+                "shasum": ""
             },
             "require": {
-                "birdycom/omniaui-laravel": "^0.12.4",
+                "birdycom/omniaui-laravel": "^0.12.5",
                 "livewire/livewire": "^3.0|^4.0",
                 "php": "^8.2"
             },
@@ -160,16 +160,7 @@
                     "Omniacss\\Livewire\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Omniacss\\Livewire\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -189,14 +180,11 @@
                 "omniacss"
             ],
             "support": {
+                "docs": "https://omniaui.eu/ui/frameworks-laravel.html",
                 "issues": "https://github.com/Birdycom/OmniaUI/issues",
-                "source": "https://github.com/Birdycom/OmniaUI/tree/main/php-packages/omniaui-livewire",
-                "docs": "https://omniaui.eu/ui/frameworks-laravel.html"
+                "source": "https://github.com/Birdycom/OmniaUI/tree/main/php-packages/omniaui-livewire"
             },
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2026-11-01T14:54:27+00:00"
         },
         {
             "name": "brick/math",
