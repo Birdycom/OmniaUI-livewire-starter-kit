@@ -10,11 +10,18 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 {{-- Appearance (Settings > Appearance): light, dark or the system setting, remembered in this browser. Runs before
-     the CSS so the page never flashes in the wrong theme. OmniaUI follows data-theme on <html>. --}}
-<script>
+     the CSS so the page never flashes in the wrong theme. OmniaUI follows data-theme on <html>. wire:navigate gives
+     <html> the attributes of the new page, so the theme is applied again on every swap. --}}
+<script data-navigate-once>
     (() => {
-        const theme = localStorage.getItem('appearance');
-        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+        const apply = () => {
+            const theme = localStorage.getItem('appearance');
+            if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+            else delete document.documentElement.dataset.theme;
+        };
+        apply();
+        document.addEventListener('livewire:navigating', (event) => event.detail.onSwap(apply));
+        document.addEventListener('livewire:navigated', apply);
     })();
 </script>
 
