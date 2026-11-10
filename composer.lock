@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a99ab7a4880ed65301b0920882aa8398",
+    "content-hash": "4e98b210e0d2657211df8ef0f68ee12b",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -63,16 +63,16 @@
         },
         {
             "name": "birdycom/omniaui-laravel",
-            "version": "v0.14.2",
+            "version": "v0.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Birdycom/OmniaUI-Laravel.git",
-                "reference": "769a60d14f85ffa7e18d4594931255c93a7c545e"
+                "reference": "c4ab76c7fa7d8c1722a691249c601461fc6cc1d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Birdycom/OmniaUI-Laravel/zipball/769a60d14f85ffa7e18d4594931255c93a7c545e",
-                "reference": "769a60d14f85ffa7e18d4594931255c93a7c545e",
+                "url": "https://api.github.com/repos/Birdycom/OmniaUI-Laravel/zipball/c4ab76c7fa7d8c1722a691249c601461fc6cc1d0",
+                "reference": "c4ab76c7fa7d8c1722a691249c601461fc6cc1d0",
                 "shasum": ""
             },
             "require": {
@@ -122,24 +122,25 @@
                 "issues": "https://github.com/Birdycom/OmniaUI/issues",
                 "source": "https://github.com/Birdycom/OmniaUI/tree/main/php-packages/omniaui-laravel"
             },
-            "time": "2026-11-04T18:35:05+00:00"
+            "time": "2026-11-10T17:57:14+00:00",
+            "published-time": "2026-11-10T17:57:56+00:00"
         },
         {
             "name": "birdycom/omniaui-livewire",
-            "version": "v0.14.2",
+            "version": "v0.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Birdycom/OmniaUI-Livewire.git",
-                "reference": "0a5af1b38583fa3060eaf9b1a0dafd24c1f09ee3"
+                "reference": "b26f20d52f7f5825fd5f1f60f93e18d53002bce1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Birdycom/OmniaUI-Livewire/zipball/0a5af1b38583fa3060eaf9b1a0dafd24c1f09ee3",
-                "reference": "0a5af1b38583fa3060eaf9b1a0dafd24c1f09ee3",
+                "url": "https://api.github.com/repos/Birdycom/OmniaUI-Livewire/zipball/b26f20d52f7f5825fd5f1f60f93e18d53002bce1",
+                "reference": "b26f20d52f7f5825fd5f1f60f93e18d53002bce1",
                 "shasum": ""
             },
             "require": {
-                "birdycom/omniaui-laravel": "^0.14.2",
+                "birdycom/omniaui-laravel": "^0.15.0",
                 "livewire/livewire": "^3.0|^4.0",
                 "php": "^8.2"
             },
@@ -184,7 +185,8 @@
                 "issues": "https://github.com/Birdycom/OmniaUI/issues",
                 "source": "https://github.com/Birdycom/OmniaUI/tree/main/php-packages/omniaui-livewire"
             },
-            "time": "2026-11-04T18:35:05+00:00"
+            "time": "2026-11-10T17:57:14+00:00",
+            "published-time": "2026-11-10T17:57:52+00:00"
         },
         {
             "name": "brick/math",
@@ -10710,5 +10712,5 @@
         "php": "^8.3"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.11.0"
 }
